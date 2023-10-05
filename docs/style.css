@@ -18,7 +18,7 @@ body {
       rgba(0, 0, 0, 0.2),
       rgba(0, 0, 0, 0.8)
     ),
-    url("./img/bctestmain.jpg");
+    url("/docs/img/bctestmain.jpg");
   background-size: cover;
   background-color: #000;
   background-position: center;
@@ -402,7 +402,7 @@ nav .current a:before {
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.6)
     ),
-    url("./img10/13.jpg");
+    url("/docs/img10/13.jpg");
   /* background: linear-gradient(
     rgba(0, 0, 0, 0.59),
     rgba(0, 0, 0, 0.4),
@@ -485,7 +485,8 @@ nav .current a:before {
 .au01ml {
   flex: 1;
   margin: 1%;
-  /* background-color: #000; */
+  /* background-color: #28dc22; */
+  /* background-color: #0f12320; */
   display: flex;
   flex-direction: column;
 }
@@ -508,7 +509,7 @@ nav .current a:before {
 .au01mli{
   flex: 1;
   margin: 1%;
-  /* background-color: #1fbd2a; */
+  /* background-color: #39613b; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -677,7 +678,7 @@ nav .current a:before {
   width: 100%;
   height: 40vh;
   background-size: cover;
-  background: url("./img/mapapl.jpg");
+  background: url("/docs/img/mapapl.jpg");
   /* margin-top: 200px; */
   animation: sliderr 7s infinite;
   border-radius: 4vh;
@@ -685,17 +686,17 @@ nav .current a:before {
 
 @keyframes sliderr {
   0% {
-    background: url("./img/mapapl.jpg");
+    background: url("/docs/img/mapapl.jpg");
     background-size: cover;
   }
   50% {
-    background: url("./img/2_client.jpg");
+    background: url("/docs/img/2_client.jpg");
     background-size: cover;
   }
   60%,
   90%,
   100% {
-    background: url("./img/2_client.jpg");
+    background: url("/docs/img/2_client.jpg");
     background-size: cover;
   }
 }
@@ -707,7 +708,7 @@ nav .current a:before {
   width: 70px;
   height: 70px;
   text-decoration: none;
-  background: url("./img/scrollupbtn.png") no-repeat 0px 0px;
+  background: url("/docs/img/scrollupbtn.png") no-repeat 0px 0px;
   background-size: contain;
   position: fixed;
   right: 50px;
@@ -832,7 +833,7 @@ nav .current a:before {
       rgba(0, 0, 0, 0.45),
       rgba(0, 0, 0, 0)
     ),
-    url("./img10/8.jpg");
+    url("/docs/img10/8.jpg");
   /* background-image: url("/img10/8.jpg");  */
   background-size: 100vw 100vh;
 }
@@ -1298,7 +1299,7 @@ svg {
   background-color: #151414;
 
   /* background-image: url("/img/bgoferty4.jpeg");    */
-  background-image: url("./img10/6.jpg");
+  background-image: url("/docs/img10/6.jpg");
   /* background-image: url("/img/bgoferty8.jpg");   */
   /* background-image: url("/img/background_main.jpg");   */
   /* background-image: url("/img/bgoferty3.jpg");  */
@@ -1595,6 +1596,7 @@ svg {
   display: flex;
   flex-direction: column;
   color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   /* background-color: #3825cb; */
 }
 
@@ -1623,7 +1625,7 @@ svg {
 .sliderferta1{
   flex: 1;
   display: flex;
-  /* background-color: #000; */
+  /* background-color: #9d2626; */
   align-items: center;
   justify-content: center;
 }
@@ -1934,9 +1936,9 @@ nav ul li a {
   #link66 {
     display: block;
   }
-  .oferta1downrnew{
+  /* .oferta1downrnew{
     display: none;
-  }
+  } */
 }
 /**/
 /*MOBILE L*/
@@ -2106,10 +2108,10 @@ nav ul li a {
 }
 @media only screen and (min-width: 1450px) {
   .gslider {
-    max-width: 960px;
+    max-width: 925px;
   }
-
 }
+
 
 
 /* #slidernone{
@@ -2283,6 +2285,171 @@ nav ul li a {
         padding: 10px;
     } */
 }
+
+/* MOBILE LANDSCAPE */
+/* MOBILE LANDSCAPE */
+/* MOBILE LANDSCAPE */
+/* MOBILE LANDSCAPE */
+@media only screen and (max-width: 1300px){
+  /* SECOND PAGE */
+  .animate-charcter {
+    font-size: 6vw;
+  }
+  /* OFERTA 1 */
+  .oferta1downl span {
+  font-size: 1.5em;
+}
+.oferta1downl li {
+  font-size: 1em;
+}
+}
+
+@media only screen and (max-width: 920px) and (max-height: 420px) {
+  /* FIRST PAGE */
+  .text-box h1 {
+    font-size: 5vh;
+  }
+  .btn-mainpage {
+    padding: 10px 35px;
+    font-size: 16px;
+  }
+  .oferta1downrnew{
+    display: none;
+  }
+  /*******************/
+  .oferta1downl, .oferta2downl {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .column-left {
+      /* background-color: #e61212; */
+        flex-basis: 45%;
+    }
+
+    .column-right {
+      /* background-color: #39b73b; */
+        flex-basis: 50%;
+        margin-top: -5vh;
+    }
+    .column-left2 {
+        flex-basis: 45%;
+        margin-left: 10vw;
+        /* background-color: #e61212; */
+    }
+
+    .column-right2 {
+        flex-basis: 50%;
+        margin-top: -6vh;
+        /* background-color: #39b73b; */
+    }
+  /*******************/
+  .oferta1downl span {
+  font-size: 1.3em;
+  }
+  .oferta1downl li {
+    font-size: 0.7em;
+  }
+  .oferta2downl span {
+  font-size: 1.5em;
+  }
+  .oferta2downl li {
+    font-size: 0.9em;
+    margin-left: 2vh;
+  }
+  /*********GALERIA**********/
+  .gleft{
+    display: none;
+  }
+  .gslider {
+    max-width: 50vw;
+  }
+  .gright {
+    align-items: center;
+}
+}
+@media only screen and (max-width: 420px){
+  /* SECOND PAGE */
+  .au01main{
+  flex-direction: column-reverse;
+  }
+  .au01mli{
+  font-size: 5vw;
+  }
+  .animate-charcter {
+    font-size: 10vw;
+  }
+  .oferta1downrnew{
+    display: none;
+  }
+  .scrollup {
+  width: 50px;
+  height: 50px;
+  right: 10px;
+  bottom: 25px;
+  }
+  .oferta1downl span {
+  font-size: 1.2em;
+  }
+  .oferta1downl li {
+    font-size: 0.7em;
+  }
+  .oferta2downl span {
+  font-size: 1.5em;
+  }
+  .oferta2downl li {
+    font-size: 1em;
+    margin-left: 2vh;
+  }
+}
+@media only screen and (max-width: 900px) and (max-height: 1300px) {
+  /* SECOND PAGE */
+  /* .au01main{
+  flex-direction: column-reverse;
+  }
+  .au01mli{
+  font-size: 1.8vh;
+  } */
+  .oferta2downl{
+    justify-content: center;
+  }
+  .oferta2downl span {
+  font-size: 1.8em;
+  }
+  .oferta2downl li {
+    font-size: 1.3em;
+    margin-left: 2vh;
+  }
+}
+@media only screen and (min-width: 900px){
+  /* SECOND PAGE */
+
+}
+@media only screen and (min-width: 799px) and (min-height: 600px) and (max-width: 1300px) and (max-height: 1300px){
+#slideroferta1t{
+    margin-bottom: 200px;
+  }
+}
+@media only screen and (min-width: 960px) and (min-height: 550px) and (max-width: 1100px) and (max-height: 800px){
+  .oferta1downl span {
+  font-size: 1.2em;
+  }
+  .oferta1downl li {
+    font-size: 0.7em;
+  }
+}
+@media only screen and (min-width: 720px) and (min-height: 1300px) {
+  /* SECOND PAGE */
+  .au01main{
+  flex-direction: column-reverse;
+  }
+  .au01mli{
+  font-size: 1.8vh;
+  }
+}
+
+
 
 /* @media only screen and (min-width: 1920px){
 .text-box{

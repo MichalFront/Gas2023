@@ -4,7 +4,18 @@ jQuery(function($)
     $('#link2').click(function(){$.scrollTo($('#link22'),500);});
     $('#link3').click(function(){$.scrollTo($('#link33'),500);});
     $('#link4').click(function(){$.scrollTo($('#link44'),500);});
-    $('#link5').click(function(){$.scrollTo($('#link55'),500);});
+
+    $('#link5').click(function() {
+      // Sprawdź szerokość strony przed wykonaniem scrolla
+      if ($(window).width() >= 1400) {
+          $.scrollTo($('#link55'), 500);
+      }
+      else{
+        $.scrollTo($('#linko11'),500);
+      }
+    });
+
+    // $('#link5').click(function(){$.scrollTo($('#link55'),500);});
     $('#link6').click(function(){$.scrollTo($('#link55'),500);});
     $('#link66').click(function(){$.scrollTo($('#linko11'),500);});
     $('#link7').click(function(){$.scrollTo($('#linko11'),500);});

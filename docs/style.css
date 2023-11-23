@@ -1164,6 +1164,7 @@ svg {
   display: flex;
   flex-direction: column;
   color: #fff;
+  justify-content: center;
 }
 .contact-in:nth-child(3) {
   flex: 35%;
@@ -2368,6 +2369,18 @@ nav ul li a {
   .gright {
     align-items: center;
 }
+  	
+  /*********KONTAKT**********/
+  .ctel5 {
+    margin: 1vh 0;
+  }
+  .contact-in {
+    padding: 0;
+    /* background-color: #e91515c9; */
+  }
+  .contact-in h1 {
+    font-size: 20px;
+  }
 }
 @media only screen and (max-width: 420px){
   /* SECOND PAGE */
@@ -2396,10 +2409,10 @@ nav ul li a {
     font-size: 0.7em;
   }
   .oferta2downl span {
-  font-size: 1.5em;
+  font-size: 1.3em;
   }
   .oferta2downl li {
-    font-size: 1em;
+    font-size: 0.8em;
     margin-left: 2vh;
   }
 }

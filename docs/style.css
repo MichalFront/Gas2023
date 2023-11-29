@@ -2401,7 +2401,7 @@ nav ul li a {
     font-size: 0.7em;
   }
   .oferta2downl span {
-  font-size: 1.3em;
+  font-size: 1em;
   }
   .oferta2downl li {
     font-size: 0.7em;
@@ -2491,12 +2491,13 @@ nav ul li a {
   } */
   .oferta2downl{
     justify-content: center;
+    margin-top: -25vh;
   }
   .oferta2downl span {
-  font-size: 1.5em;
+  font-size: 1.2em;
   }
   .oferta2downl li {
-    font-size: 1em;
+    font-size: 0.7em;
     margin-left: 2vh;
   }
 }
@@ -2552,6 +2553,11 @@ nav ul li a {
   }
   .oferta2downl li {
     font-size: 0.7em;
+  }
+}
+@media only screen and (min-width: 640px) and (max-width: 900px) and (max-height: 1300px) {
+  .oferta2downl{
+    margin-top: 5vh;
   }
 }
 

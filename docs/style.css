@@ -2560,6 +2560,26 @@ nav ul li a {
     margin-top: 5vh;
   }
 }
+@media only screen and (max-width: 940px) and (max-height: 420px) and (max-height: 1300px) {
+  .nav-ul li a {
+  padding: 2px;
+}
+.oferta1downl span {
+  font-size: 1em;
+  }
+  .oferta1downl li {
+    font-size: 0.5em;
+  }
+  .oferta2downl span {
+  font-size: 1em;
+  }
+  .oferta2downl li {
+    font-size: 0.5em;
+  }
+  .gslider {
+    max-width: 45vw;
+  }
+}
 
 /* @media only screen and (min-width: 1920px){
 .text-box{

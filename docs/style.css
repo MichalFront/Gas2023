@@ -477,7 +477,7 @@ nav .current a:before {
   display: flex;
   background-color: #000;
 }
-.au01main{
+.au01main {
   display: flex;
   flex-direction: row;
   flex: 1;
@@ -508,7 +508,7 @@ nav .current a:before {
   max-height: 100%;
   object-fit: cover;
 }
-.au01mli{
+.au01mli {
   flex: 1;
   margin: 1%;
   /* background-color: #39613b; */
@@ -519,10 +519,6 @@ nav .current a:before {
   text-align: center;
   font-size: 2vw;
 }
-
-
-
-
 
 /* ######################################################## */
 /* ######################################################## */
@@ -616,24 +612,21 @@ nav .current a:before {
     #00b4d8 27%,
     #0096c7 34%,
     #0077b6 41%,
-    /* #064393 48%, */
-    #023e8a 48%,
+    /* #064393 48%, */ #023e8a 48%,
     #030573 56%,
-    /* #064393 56%, */
-    #023e8a 63%,
+    /* #064393 56%, */ #023e8a 63%,
     #0077b6 70%,
     #0096c7 77%,
     #00b4d8 84%,
     #48cae4 91%,
     #90e0ef 94%,
     #ade8f4 100%
-    /* #767070 0%,
+      /* #767070 0%,
     #870e4f 20%,
     #0097a7 40%,
     #3a35b9 60%,
     #0097a7 80%,
     #870e4f 100% */
-
   );
   background-size: auto auto;
   background-clip: border-box;
@@ -1599,7 +1592,7 @@ svg {
   display: flex;
   flex-direction: column;
   color: white;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   /* background-color: #3825cb; */
 }
 
@@ -1625,51 +1618,57 @@ svg {
   color: white;
   /* background-color: #3825cb; */
 }
-.sliderferta1{
+.sliderferta1 {
   flex: 1;
   display: flex;
   /* background-color: #9d2626; */
   align-items: center;
   justify-content: center;
 }
-.sliderferta1 img{
+.sliderferta1 img {
   max-width: 80%;
   max-height: 80%;
 }
-#sliderferta2{
+#sliderferta2 {
   flex: 1;
   display: flex;
   /* background-color: #000; */
   align-items: center;
   justify-content: center;
 }
-#sliderferta2 img{
+#sliderferta2 img {
   max-width: 50%;
   max-height: 50%;
 }
 
-.www-animate-fading{
-  animation:fading 10s infinite
+.www-animate-fading {
+  animation: fading 10s infinite;
 }
-.ww-animate-fading{
-  animation:fadingg 10s infinite
+.ww-animate-fading {
+  animation: fadingg 10s infinite;
 }
-@keyframes fading{
-  0%{opacity:0}
-  50%{opacity:1}
-  100%{opacity:0}
+@keyframes fading {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
-@keyframes fadingg{
-  0%{opacity:0}
-  50%{opacity:1}
-  100%{opacity:0}
+@keyframes fadingg {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
-
-
-
-
-
-
 
 .oferta1downr {
   flex: 1;
@@ -1845,8 +1844,8 @@ nav {
   font-family: "Times New Roman", Times, serif;
   padding: 0px 20px;
   text-decoration: none;
-  font-size: 2vh;
-  font-size: 2.5vh;
+  /* font-size: 2vh; */
+  font-size: 3vh;
   /* background-color: rgb(132, 130, 182); */
 }
 nav ul li a {
@@ -1937,10 +1936,9 @@ nav ul li a {
   .text-box h1 {
     font-size: 5vh;
   }
-  .oferta2downl{
+  .oferta2downl {
     justify-content: center;
   }
-
 }
 
 @media only screen and (max-width: 1000px) {
@@ -1951,15 +1949,15 @@ nav ul li a {
     display: block;
   }
   .nav-ul li a {
-  color: #ffffff;
-}
-}
-@media only screen and (max-width: 1100px) {
-  .au01main{
-  flex-direction: column-reverse;
+    color: #ffffff;
   }
-  .au01mli{
-  font-size: 3vh;
+}
+@media only screen and (max-width: 1000px) {
+  .au01main {
+    flex-direction: column-reverse;
+  }
+  .au01mli {
+    font-size: 3vh;
   }
   .animate-charcter {
     font-size: 3vh;
@@ -1969,7 +1967,6 @@ nav ul li a {
     max-height: 100%;
   }
 }
-
 
 @media only screen and (max-width: 1400px) {
   #link66 {
@@ -2126,10 +2123,10 @@ nav ul li a {
     max-width: 50vw;
     margin-top: 1vh;
   }
-  .au01mlimg img {
+  /* .au01mlimg img {
     max-width: 90%;
     max-height: 100%;
-  }
+  } */
 }
 
 @media only screen and (max-width: 1400px) {
@@ -2154,8 +2151,6 @@ nav ul li a {
     max-width: 870px;
   }
 }
-
-
 
 /* #slidernone{
     display: none;
@@ -2333,24 +2328,24 @@ nav ul li a {
 /* MOBILE LANDSCAPE */
 /* MOBILE LANDSCAPE */
 /* MOBILE LANDSCAPE */
-@media only screen and (max-width: 1300px){
+@media only screen and (max-width: 1300px) {
   /* SECOND PAGE */
   .animate-charcter {
     font-size: 6vw;
   }
   /* OFERTA 1 */
   .oferta1downl span {
-  font-size: 1.5em;
-}
-.oferta1downl li {
-  font-size: 1em;
-}
+    font-size: 1.5em;
+  }
+  .oferta1downl li {
+    font-size: 1em;
+  }
   .oferta2downl span {
-  font-size: 1.5em;
-}
-.oferta2downl li {
-  font-size: 1em;
-}
+    font-size: 1.5em;
+  }
+  .oferta2downl li {
+    font-size: 1em;
+  }
 }
 
 @media only screen and (max-width: 920px) and (max-height: 420px) {
@@ -2362,46 +2357,47 @@ nav ul li a {
     padding: 10px 35px;
     font-size: 16px;
   }
-  .oferta1downrnew{
+  .oferta1downrnew {
     display: none;
   }
   /*******************/
-  .oferta1downl, .oferta2downl {
-        display: flex;
-        justify-content: space-between;
-        flex-direction: row;
-    }
+  .oferta1downl,
+  .oferta2downl {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
 
-    .column-left {
-      /* background-color: #e61212; */
-        flex-basis: 45%;
-    }
+  .column-left {
+    /* background-color: #e61212; */
+    flex-basis: 45%;
+  }
 
-    .column-right {
-      /* background-color: #39b73b; */
-        flex-basis: 50%;
-        margin-top: -5vh;
-    }
-    .column-left2 {
-        flex-basis: 45%;
-        margin-left: 10vw;
-        /* background-color: #e61212; */
-    }
+  .column-right {
+    /* background-color: #39b73b; */
+    flex-basis: 50%;
+    margin-top: -5vh;
+  }
+  .column-left2 {
+    flex-basis: 45%;
+    margin-left: 10vw;
+    /* background-color: #e61212; */
+  }
 
-    .column-right2 {
-        flex-basis: 50%;
-        margin-top: -6vh;
-        /* background-color: #3950b7; */
-    }
+  .column-right2 {
+    flex-basis: 50%;
+    margin-top: -6vh;
+    /* background-color: #3950b7; */
+  }
   /*******************/
   .oferta1downl span {
-  font-size: 1em;
+    font-size: 1em;
   }
   .oferta1downl li {
     font-size: 0.7em;
   }
   .oferta2downl span {
-  font-size: 1em;
+    font-size: 1em;
   }
   .oferta2downl li {
     font-size: 0.7em;
@@ -2415,17 +2411,15 @@ nav ul li a {
     max-width: 100%;
     max-height: 100%;
   }
-  .au01main{
-  flex-direction: row;
+  .au01main {
+    flex-direction: row;
   }
-  .au01mli{
-  font-size: 5vh;
+  .au01mli {
+    font-size: 5vh;
   }
-
-
 
   /*********GALERIA**********/
-  .gleft{
+  .gleft {
     display: none;
   }
   .gslider {
@@ -2433,7 +2427,7 @@ nav ul li a {
   }
   .gright {
     align-items: center;
-}
+  }
 
   /*********KONTAKT**********/
   .ctel5 {
@@ -2447,38 +2441,42 @@ nav ul li a {
     font-size: 20px;
   }
 }
-@media only screen and (max-width: 420px){
+@media only screen and (max-width: 420px) {
   /* SECOND PAGE */
-  .au01main{
-  flex-direction: column-reverse;
+  .au01main {
+    flex-direction: column-reverse;
   }
-  .au01mli{
-  font-size: 5vw;
+  .au01mli {
+    font-size: 5vw;
   }
   .animate-charcter {
     font-size: 10vw;
   }
-  .oferta1downrnew{
+  .oferta1downrnew {
     display: none;
   }
   .scrollup {
-  width: 50px;
-  height: 50px;
-  right: 10px;
-  bottom: 25px;
+    width: 50px;
+    height: 50px;
+    right: 10px;
+    bottom: 25px;
   }
   .oferta1downl span {
-  font-size: 1.2em;
+    font-size: 1.2em;
   }
   .oferta1downl li {
     font-size: 0.7em;
   }
   .oferta2downl span {
-  font-size: 1.2em;
+    font-size: 1.2em;
   }
   .oferta2downl li {
     font-size: 0.7em;
     margin-left: 2vh;
+  }
+  .au01mlimg img {
+    max-width: 100%;
+    max-height: 100%;
   }
 }
 @media only screen and (max-width: 900px) and (max-height: 1300px) {
@@ -2489,89 +2487,91 @@ nav ul li a {
   .au01mli{
   font-size: 1.8vh;
   } */
-  .oferta2downl{
+  .oferta2downl {
     justify-content: center;
     margin-top: -25vh;
   }
   .oferta2downl span {
-  font-size: 1.2em;
+    font-size: 1.2em;
   }
   .oferta2downl li {
     font-size: 0.7em;
     margin-left: 2vh;
   }
 }
-@media only screen and (min-width: 900px){
+@media only screen and (min-width: 900px) {
   /* SECOND PAGE */
-
 }
-@media only screen and (min-width: 799px) and (min-height: 600px) and (max-width: 1300px) and (max-height: 1300px){
-#slideroferta1t{
+@media only screen and (min-width: 799px) and (min-height: 600px) and (max-width: 1300px) and (max-height: 1300px) {
+  #slideroferta1t {
     margin-bottom: 200px;
   }
 }
-@media only screen and (min-width: 960px) and (min-height: 550px) and (max-width: 1100px) and (max-height: 800px){
+@media only screen and (min-width: 960px) and (min-height: 550px) and (max-width: 1100px) and (max-height: 800px) {
   .oferta1downl span {
-  font-size: 1.2em;
+    font-size: 1.2em;
   }
   .oferta1downl li {
     font-size: 0.7em;
   }
   .oferta2downl span {
-  font-size: 1.2em;
+    font-size: 1.2em;
   }
   .oferta2downl li {
     font-size: 0.7em;
   }
-  .column-left2{
+  .column-left2 {
     margin-top: 10vh;
   }
-  .oferta1downl{
+  .oferta1downl {
     justify-content: center;
   }
 }
 @media only screen and (min-width: 720px) and (min-height: 1300px) {
   /* SECOND PAGE */
-  .au01main{
-  flex-direction: column-reverse;
+  .au01main {
+    flex-direction: column-reverse;
   }
-  .au01mli{
-  font-size: 1.8vh;
+  .au01mli {
+    font-size: 1.8vh;
   }
 }
-@media only screen and (max-width: 650px){
-  .oferta1downrnew{
+@media only screen and (max-width: 650px) {
+  .oferta1downrnew {
     display: none;
   }
   /* .column-left2{
     margin-top: 0vh;
   } */
+  .text-box h1 {
+    font-size: 5vh;
+  }
 }
 @media only screen and (max-width: 920px) and (max-height: 420px) {
   .oferta2downl span {
-  font-size: 1em;
+    font-size: 1em;
   }
   .oferta2downl li {
     font-size: 0.7em;
   }
 }
 @media only screen and (min-width: 640px) and (max-width: 900px) and (max-height: 1300px) {
-  .oferta2downl{
+  .oferta2downl {
     margin-top: 5vh;
   }
 }
 @media only screen and (max-width: 940px) and (max-height: 420px) and (max-height: 1300px) {
   .nav-ul li a {
-  padding: 2px;
-}
-.oferta1downl span {
-  font-size: 1em;
+    padding: 2px;
+  }
+  .oferta1downl span {
+    font-size: 1em;
   }
   .oferta1downl li {
     font-size: 0.5em;
   }
   .oferta2downl span {
-  font-size: 1em;
+    font-size: 1em;
   }
   .oferta2downl li {
     font-size: 0.5em;
@@ -2580,7 +2580,11 @@ nav ul li a {
     max-width: 45vw;
   }
 }
-
+@media only screen and (max-width: 940px) and (max-height: 420px){
+  .nav-ul{
+    margin-top: -10vh;
+  }
+}
 /* @media only screen and (min-width: 1920px){
 .text-box{
     color: #000;
@@ -2589,4 +2593,3 @@ nav ul li a {
 #map_last {
   display: none;
 }
-

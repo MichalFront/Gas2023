@@ -2447,10 +2447,10 @@ nav ul li a {
     flex-direction: column-reverse;
   }
   .au01mli {
-    font-size: 5vw;
+    font-size: 4vw;
   }
   .animate-charcter {
-    font-size: 10vw;
+    font-size: 8vw;
   }
   .oferta1downrnew {
     display: none;
@@ -2580,8 +2580,8 @@ nav ul li a {
     max-width: 45vw;
   }
 }
-@media only screen and (max-width: 940px) and (max-height: 420px){
-  .nav-ul{
+@media only screen and (max-width: 940px) and (max-height: 420px) {
+  .nav-ul {
     margin-top: -10vh;
   }
 }
